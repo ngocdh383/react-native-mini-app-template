@@ -1,0 +1,36 @@
+{
+    "name": "react-native-mini-app-view-template",
+    "title": "React Native Mini App View Template",
+    "version": "0.0.2",
+    "description": "TODO",
+    "scripts": {
+        "test": "jest"
+    },
+    "repository": {
+        "type": "git",
+        "url": "",
+        "baseUrl": ""
+    },
+    "keywords": [
+        "react-native",
+        "react-native-mini-app-view",
+        "@react-native-banvien/mini-app-view",
+        "react-native-mini-app-view-template"
+    ],
+    "author": {
+        "name": "Dinh Hong Ngoc",
+        "email": "ngoc.dinh-hong@banvien.com.vn"
+    },
+    "license": "MIT",
+    "licenseFilename": "LICENSE",
+    "readmeFilename": "README.md",
+    "peerDependencies": {
+        "react": "^16.8.1",
+        "react-native": ">=0.60.0-rc.0 <1.0.x"
+    },
+    "devDependencies": {
+        "react": "^16.9.0",
+        "react-native": "^0.61.5"
+    },
+    "dependencies": {}
+}
