@@ -1,15 +1,15 @@
 {
     "name": "react-native-mini-app-view-template",
     "title": "React Native Mini App View Template",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "TODO",
     "scripts": {
         "test": "jest"
     },
     "repository": {
         "type": "git",
-        "url": "",
-        "baseUrl": ""
+        "url": "git+https://github.com/ngocdh383/react-native-mini-app-template.git",
+        "baseUrl": "https://github.com/ngocdh383/react-native-mini-app-template"
     },
     "keywords": [
         "react-native",
