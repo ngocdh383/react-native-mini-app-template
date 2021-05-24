@@ -1,7 +1,7 @@
 {
-    "name": "react-native-mini-app-view-template",
-    "title": "React Native Mini App View Template",
-    "version": "0.0.3",
+    "name": "react-native-mini-app-template",
+    "title": "React Native Mini App Template",
+    "version": "0.0.1",
     "description": "TODO",
     "scripts": {
         "test": "jest"
@@ -15,11 +15,11 @@
         "react-native",
         "react-native-mini-app-view",
         "@react-native-banvien/mini-app-view",
-        "react-native-mini-app-view-template"
+        "react-native-mini-app-template"
     ],
     "author": {
         "name": "Dinh Hong Ngoc",
-        "email": "ngoc.dinh-hong@banvien.com.vn"
+        "email": "dinhhongngoc383@gmail.com"
     },
     "license": "MIT",
     "licenseFilename": "LICENSE",

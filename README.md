@@ -2,4 +2,4 @@
 
 ## Getting started
 
-`$ npx react-native init AppName --template react-natie-mini-app-template`
+`$ npx react-native init AppName --template react-native-mini-app-template`
