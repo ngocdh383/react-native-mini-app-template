@@ -1,16 +1,12 @@
 import React, { Component } from "react";
-import { Image, StyleSheet, Text, View } from "react-native";
-import { ic_logo } from "./src/assets/icons/generated";
+import { Provider } from "react-redux";
+import store from "./src/core";
+import AppNavigator from "./src/navigator";
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: "center",
-    alignItems: "center",
-  },
-});
-
-interface Props {}
+interface Props {
+  screenName: string;
+  screenProps: any;
+}
 
 interface State {}
 
@@ -21,11 +17,11 @@ export default class App extends Component<Props, State> {
   }
 
   render() {
+    const { screenName, screenProps } = this.props;
     return (
-      <View style={styles.container}>
-        <Image style={{ width: 100, height: 100 }} source={ic_logo} />
-        <Text>Hello World!!!</Text>
-      </View>
+      <Provider store={store}>
+        <AppNavigator screenName={screenName} screenProps={screenProps} />
+      </Provider>
     );
   }
 }

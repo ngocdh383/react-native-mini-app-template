@@ -1,5 +1,5 @@
-import ic_logo from './ic_logo';
+import ic_app_logo from './ic_app_logo';
 
 export {
-  ic_logo
+  ic_app_logo
 };
