@@ -1,4 +1,4 @@
 module.exports = {
-    placeholderName: 'RNTemplate',
-    templateDir: './template',
-  }
+  placeholderName: "ReactNativeMiniAppTemplate",
+  templateDir: "./template",
+};
