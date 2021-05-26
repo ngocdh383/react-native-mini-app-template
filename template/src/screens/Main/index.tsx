@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { StyleSheet, Text, View } from "react-native";
+import { isRunningInSuperApp } from "../../utils/functions";
 
 const styles = StyleSheet.create({
   container: {
@@ -23,6 +24,9 @@ class MainScreenComponent extends Component<Props, State> {
     return (
       <View style={styles.container}>
         <Text>Main Screen</Text>
+        <Text>
+          Is Running in super App: {isRunningInSuperApp() ? "true" : "false"}
+        </Text>
       </View>
     );
   }
