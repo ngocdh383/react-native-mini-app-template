@@ -124,7 +124,7 @@ for (const assetEntry of assetsEntries) {
       : setFile[3].replace("@3x", "");
     const name = `${snakeCase(x1.replace(".png", ""))}`;
 
-    const fileContent = `import { getScale } from "react-native-commons-utils/functions";
+    const fileContent = `import { getScale } from "react-native-commons-utils";
 const icon_${name} = {
   1: {uri: '${base64Obj[1]}'},
   2: {uri: '${base64Obj[2]}'},
