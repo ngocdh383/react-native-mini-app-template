@@ -20,5 +20,5 @@ const DOMAIN_ENVs: DomainEnv = {
   },
 };
 
-export const ENV = Environment.TESTING;
+export const ENV = Environment.DEV;
 export const Domains = DOMAIN_ENVs[ENV];
